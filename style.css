@@ -3,6 +3,7 @@
 body {
     background: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .computer {
@@ -66,6 +67,7 @@ body {
   margin-left: 312px;
   margin-top: 200px;
   font-size: 64px;
+  font-weight: 700;
 /*   border: solid blue 1px; */
 }
 
@@ -89,6 +91,7 @@ body {
   font-size: 36px;
   justify-content: center;
   margin: auto;
+  font-weight: 700;
 /*   border: solid orange 1px; */
 }
 
@@ -217,6 +220,7 @@ body {
 
 .about_title {
   font-size: 48px;
+  font-weight: 700;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -230,10 +234,6 @@ body {
 /*   display: flex; */
 /*   flex-direction: column; */
    align-items: space-between; 
-}
-
-.start_title {
-/*   border: solid orange 1px; */
 }
 
 .start_heading {
@@ -253,6 +253,7 @@ body {
 
 .start_heading-p {
   font-size: 48px;
+  font-weight: 700;
 }
 
 .start_title-p {
@@ -271,6 +272,7 @@ body {
 
 .start_procent {
   width: 324px;
+  font-weight: 700;
 }
 
 .start_lorems {
@@ -325,6 +327,7 @@ body {
 
 .advantages_title {
   font-size: 48px;
+  font-weight: 700;
   margin: auto;
 /*   border: solid 1px green; */
   display: flex;
@@ -350,6 +353,7 @@ body {
 
 .advantages_name {
   font-size: 24px;
+  font-weight: 500;
   width: 416px;
   display: flex;
   text-align: center;
@@ -402,6 +406,7 @@ body {
 
 .partners_title-p {
   font-size: 48px;
+  font-weight: 700;
 }
 
 .partners_logos {
@@ -477,6 +482,7 @@ body {
 
 .program_head-title {
   font-size: 48px;
+  font-weight: 700;
 }
 
 .program_head-content {
@@ -599,6 +605,7 @@ body {
 
 .teachers_head-p {
   font-size: 48px;
+  font-weight: 700;
 }
 
 .teachers_box {
@@ -624,6 +631,7 @@ body {
 
 .teachers_teacher-name {
   font-size: 24px;
+  font-weight: 500;
 }
 
 .teachers_teacher-btn {
@@ -651,6 +659,7 @@ body {
 
 .footer_title {
   font-size: 48px;
+  font-weight: 700;
 }
 
 .footer_text {
@@ -679,6 +688,11 @@ body {
   border: none;
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
   color: white;
+}
+
+.footer_box-social {
+  width: 290px;
+  height: 50px;
 }
 
 .footer_box-social {

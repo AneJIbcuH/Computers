@@ -115,7 +115,7 @@ body {
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
   border-radius: 50px;
   border: none;
-  width: 169px;
+  min-width: 169px;
   height: 44px;
   color: white;
   margin-left: 312px;
